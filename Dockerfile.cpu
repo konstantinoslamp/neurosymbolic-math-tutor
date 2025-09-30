@@ -1,0 +1,25 @@
+FROM python:3.10-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential libgl1 libglib2.0-0 tk git \
+ && rm -rf /var/lib/apt/lists/*
+
+RUN useradd -ms /bin/bash appuser
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt \
+    && pip install jupyterlab
+
+COPY . .
+USER appuser
+
+# Expose port for Jupyter Lab
+EXPOSE 8888
+
+# Default command to start JupyterLab
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
