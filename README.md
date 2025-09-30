@@ -1,8 +1,8 @@
-# Neurosymbolic AI Math Tutor 🧠➕⚡
+# Neurosymbolic AI Math Tutor
 
 An intelligent mathematical tutoring system that combines **neural networks** for handwriting recognition with **symbolic computation** for algebraic equation solving. This project demonstrates the power of neurosymbolic AI by seamlessly integrating pattern recognition with logical reasoning.
 
-## 🎯 Project Overview
+## Project Overview
 
 The system processes handwritten mathematical equations through a complete pipeline:
 1. **Image Processing**: Preprocesses and segments handwritten equation images
@@ -10,7 +10,7 @@ The system processes handwritten mathematical equations through a complete pipel
 3. **Symbolic Solving**: Applies rule-based algebraic manipulation for step-by-step solutions
 4. **Educational Feedback**: Provides detailed solution explanations
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Handwritten Equation Image
@@ -28,7 +28,7 @@ Handwritten Equation Image
   [Step-by-step Solution]
 ```
 
-## 🧠 Neurosymbolic Approach
+## Neurosymbolic Approach
 
 This project exemplifies **neurosymbolic AI** by combining:
 
@@ -42,7 +42,7 @@ This project exemplifies **neurosymbolic AI** by combining:
   - Rule-based equation parsing and validation
   - Step-by-step solution generation
 
-## 🚀 Features
+## Features
 
 - **Handwriting Recognition**: Processes handwritten mathematical equations
 - **Symbol Detection**: Identifies digits, operators, variables, and special symbols
@@ -53,7 +53,7 @@ This project exemplifies **neurosymbolic AI** by combining:
 - **Docker Support**: Containerized environment with all dependencies
 - **Jupyter Integration**: Interactive notebook interface for experimentation
 
-## 📋 Supported Symbols
+## Supported Symbols
 
 | Category | Symbols |
 |----------|---------|
@@ -62,7 +62,7 @@ This project exemplifies **neurosymbolic AI** by combining:
 | Variables | `x, y, z` |
 | Parentheses | `(, )` |
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Deep Learning**: TensorFlow/Keras for neural networks
 - **Computer Vision**: OpenCV for image processing
@@ -72,7 +72,7 @@ This project exemplifies **neurosymbolic AI** by combining:
 - **Environment**: Docker for containerization
 - **Interface**: Jupyter Lab for interactive development
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Docker Desktop
@@ -109,7 +109,7 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
-## 🎮 Usage
+## Usage
 
 ### 1. Prepare Equation Images
 - Place handwritten equation images in the `data/` folder
@@ -130,7 +130,7 @@ The system will output:
 - Step-by-step algebraic solutions
 - Mathematical validation
 
-## 📊 Example Output
+## Example Output
 
 ```
 NEUROSYMBOLIC AI MATH TUTOR - FULL DEMO
@@ -168,7 +168,7 @@ SYMBOLIC SOLVING:
 Solution validation: PASSED
 ```
 
-## 🔬 Research Applications
+## Research Applications
 
 This project demonstrates key concepts in:
 
@@ -178,7 +178,7 @@ This project demonstrates key concepts in:
 - **Mathematical Software**: Automated problem solving
 - **Human-Computer Interaction**: Handwriting-based interfaces
 
-## 🎓 Educational Value
+## Educational Value
 
 Perfect for learning:
 - Deep learning architectures (CNNs)
@@ -188,17 +188,6 @@ Perfect for learning:
 - Scientific Python ecosystem
 - Neurosymbolic AI principles
 
-## 🤝 Contributing
-
-Contributions are welcome! Areas for improvement:
-
-1. **Neural Network Training**: Implement training pipeline for symbol recognition
-2. **Extended Symbols**: Support for fractions, roots, trigonometric functions  
-3. **Advanced Equations**: Handle systems of equations, calculus problems
-4. **UI/UX**: Web interface for easier interaction
-5. **Performance**: Optimization for real-time processing
-6. **Datasets**: Curated handwriting datasets for training
-
 ### Development Setup
 
 1. Fork the repository
@@ -207,27 +196,19 @@ Contributions are welcome! Areas for improvement:
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📚 References
+## References
 
 - [SymPy Documentation](https://docs.sympy.org/)
 - [TensorFlow Tutorials](https://www.tensorflow.org/tutorials)
 - [OpenCV Python Documentation](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
 - [Neurosymbolic AI Research](https://arxiv.org/abs/2105.05330)
 
-## 👥 Authors
-
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
-
 ## 🙏 Acknowledgments
 
 - Built for PhD research in neurosymbolic AI systems
 - Inspired by the need for intelligent educational technology
 - Special thanks to the open-source community for amazing tools
-
----
-
-**🔥 Ready to revolutionize math education with neurosymbolic AI? Star this repo and let's build the future of intelligent tutoring systems together!**
